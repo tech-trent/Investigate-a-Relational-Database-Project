@@ -1,7 +1,7 @@
 /*Question 1
 We want to understand more about the movies that families are watching.The following categories are considered family movies: Animation, Children, Classics, Comedy, Family and Music. Create a query that lists each movie, the film category it is classified in, and the number of times it has been rented out.
 */
--- New SQL queries  as per suggestion
+
 SELECT DISTINCT
     category_name,
     COUNT(*)  AS rental_count
