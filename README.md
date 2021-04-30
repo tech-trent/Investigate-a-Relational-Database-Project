@@ -1,11 +1,11 @@
 # Investigate-a-Relational-Database-Project
 Queried a relational database about a company that rents DVD movies using PostgreSQL.
 
-##Introduction
+    ##Introduction
 
 In this project, you will query the Sakila DVD Rental database. The Sakila Database holds information about a company that rents movie DVDs. For this project, you will be querying the database to gain an understanding of the customer base, such as what the patterns in movie watching are across different customer groups, how they compare on payment earnings, and how the stores compare in their performance. To assist you in the queries ahead, the schema for the DVD Rental database is provided below. 
 
-###Dataset
+    ###Dataset
 
 The DVD rental database has many objects including:
 
@@ -17,7 +17,7 @@ The DVD rental database has many objects including:
     13 sequences
 
 
-###Tables:
+    ###Tables:
 
     actor – stores actors data including first name and last name.
     film – stores films data such as title, release year, length, rating, etc.
@@ -36,7 +36,7 @@ The DVD rental database has many objects including:
 
 ![ERD](https://video.udacity-data.com/topher/2018/September/5ba95d23_dvd-rental-erd-2/dvd-rental-erd-2.png)
 
-##Questions Posed
+    ##Questions Posed
 
   - We want to understand more about the movies that families are watching.The following categories are considered family movies: Animation, Children, Classics, Comedy, Family and Music. Create a query that lists each movie, the film category it is classified in, and the number of times it has been rented out.
   - Finally, provide a table with the family-friendly film category, each of the quartiles, and the corresponding count of movies within each combination of film category for each corresponding rental duration category.
