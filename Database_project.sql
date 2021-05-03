@@ -18,7 +18,7 @@ JOIN inventory
   ON film.film_id = inventory.film_id
 JOIN rental
   ON inventory.inventory_id = rental.inventory_id
-WHERE category.name IN ('Animation', 'Children', 'Classics', 'Comedy', 'Family', 'Music')) flim_table
+WHERE category.name IN ('Animation', 'Children', 'Classics', 'Comedy', 'Family', 'Music')) film_table
 GROUP by 1
 ORDER BY 2 DESC;
 
